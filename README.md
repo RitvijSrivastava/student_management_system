@@ -4,17 +4,26 @@ This repo hosts code for RDBMS project on Student Management System
 
 ## How to run it?
 
-1. Clone this repo
+``` bash
+# Install dependencies for server
+npm install
 
-2. Open a terminal. Navigate to this directory
+# Install dependencies for client
+npm run client-install
 
-3. Run ```npm install```
+# Run the client & server with concurrently
+npm run dev
 
-4. Run ```npm client-install```
+# Run the Express server only
+npm run server
 
-5. Run ```npm run dev``` to run the project on port 5000
+# Run the React client only
+npm run client
 
-NOTE: ***Xampp/MAMP*** needs to be running in the background (for MySQL). The SQL db used for this project is in the project labelled ```student_management```
+# Server runs on http://localhost:5000 and client on http://localhost:3000
+```
+
+NOTE: ***Xampp/MAMP*** needs to be running in the background (for MySQL). The SQL Database used for this project is in ```assets/student_management.sql```
 
 ### CREDITS
 
